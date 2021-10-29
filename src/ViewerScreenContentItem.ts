@@ -12,8 +12,6 @@ export interface ResponsiveOptions {
 
 export interface ViewerScreenContentItem {
   animation?: '' | 'bounce' | 'countUp' | 'fade' | 'flip' | 'slide' | 'typewriter' | 'zoom';
-  // conditions?: Condition[];
-  // conditionsMatch: 'all' | 'any';
   delay: number; // seconds
   font: {
     colour: string;

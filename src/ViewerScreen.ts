@@ -11,10 +11,6 @@ export interface ViewerScreenContent {
 export interface ViewerScreen {
   content: ViewerScreenContent;
   id: string;
-  // match: 'allSearches' | 'anySearches' | 'allUsers';
   name: string;
   order: number;
-  // searchIds: string[];
-  // supportersMatched?: number;
-  // supportersMatchedUpdate?: boolean;
 }
