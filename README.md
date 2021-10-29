@@ -1,1 +1,3 @@
-# year-in-review-shared
+# Year in Review shared resources
+
+E.g. Typescript interfaces
