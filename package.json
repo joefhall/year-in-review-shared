@@ -1,0 +1,24 @@
+{
+  "name": "year-in-review-shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joefhall/year-in-review-shared.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joefhall/year-in-review-shared/issues"
+  },
+  "homepage": "https://github.com/joefhall/year-in-review-shared#readme",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  }
+}
