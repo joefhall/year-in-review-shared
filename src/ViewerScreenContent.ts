@@ -5,6 +5,6 @@ export interface ViewerScreenContent {
   backgroundImage?: string; // url
   backgroundImageBrightness?: number; // -1 to 1
   backgroundImageContrast?: number; // -1 to 1
-  delayAfterLastItem?: number; // seconds
+  delayAfterLastItem: number; // seconds
   items?: ViewerScreenContentItem[];
 }
