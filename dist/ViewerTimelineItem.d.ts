@@ -1,5 +1,5 @@
 import { ViewerScreenContentItem } from './ViewerScreenContentItem';
-export interface TimelineItem {
+export interface ViewerTimelineItem {
     end?: boolean;
     item?: ViewerScreenContentItem;
     show: boolean;
