@@ -1,4 +1,5 @@
 import { ViewerScreenContentItem } from './ViewerScreenContentItem';
+import { ViewerTimelineItem } from './ViewerTimelineItem';
 
 export interface ViewerScreenContent {
   backgroundColour: string; // hex
@@ -7,4 +8,5 @@ export interface ViewerScreenContent {
   backgroundImageContrast?: number; // -1 to 1
   delayAfterLastItem: number; // seconds
   items?: ViewerScreenContentItem[];
+  timeline?: ViewerTimelineItem[];
 }
