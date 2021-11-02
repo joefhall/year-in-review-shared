@@ -1,14 +1,4 @@
-export interface ResponsiveOptions {
-  font: {
-    lineHeight: number;
-    size: number;
-  };
-  maxWidth: number; // percentage
-  position: {
-    horizontal: number; // percentage
-    top: number; // percentage
-  };
-}
+import { ResponsiveOptions } from './ResponsiveOptions';
 
 export interface ViewerScreenContentItem {
   animation?: '' | 'bounce' | 'countUp' | 'fade' | 'flip' | 'slide' | 'typewriter' | 'zoom';
