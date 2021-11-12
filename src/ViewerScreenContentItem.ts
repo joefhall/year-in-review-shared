@@ -2,6 +2,7 @@ import { ResponsiveOptions } from './ResponsiveOptions';
 
 export interface ViewerScreenContentItem {
   animation?: '' | 'bounce' | 'countUp' | 'fade' | 'flip' | 'slide' | 'typewriter' | 'zoom';
+  backgroundColour?: string;
   delay: number; // seconds
   font: {
     colour: string;

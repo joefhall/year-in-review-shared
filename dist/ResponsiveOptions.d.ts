@@ -4,6 +4,7 @@ export interface ResponsiveOptions {
         size: number;
     };
     maxWidth: number;
+    padding?: number;
     position: {
         horizontal: number;
         top: number;
